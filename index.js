@@ -9,6 +9,7 @@ const app = express();
 // View engine to pug
 app.set("view engine", "pug");
  
+
 // Default views
 app.set("views", __dirname + "/views");
  
