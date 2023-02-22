@@ -31,5 +31,5 @@ app.get("/", (req, res) => {
     res.render("singlecontact");
 }); */
  
-// Listening our app on port 3500
-app.listen(3500);
+// Listening our app on port 3000
+app.listen(3000);
