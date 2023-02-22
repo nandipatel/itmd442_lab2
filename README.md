@@ -23,6 +23,7 @@ Insights and Results – Include here things you learned, challenges or problems
 ## References:
 #### Had errors, used this website to get started on the basics of pug: https://www.geeksforgeeks.org/pugjs-basics-and-installation/npm-check-updates
 
-#### To use pug, needed help to understand the language: https://www.sitepoint.com/a-beginners-guide-to-pug/
+#### To use pug, needed help to understand the language: 
+#### https://www.sitepoint.com/a-beginners-guide-to-pug/
 #### https://codepen.io/dpetrini/pen/yPMeBg
 
