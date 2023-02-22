@@ -18,4 +18,8 @@ html
         h4 Nandi Patel - npatel127@hawk.iit.edu
 
         form(action="get". method="post". id='form')
-        input#(type="text", name="f_name", placeholder="Enter you first name", required)
+        label(for="f_name") First Name:
+        input#fname(type="text", name="f_name", placeholder="Enter you first name", required)
+        label(for="l_name") Last Name:
+        input#lname(type="text", name="l_name", placeholder="Enter you last name", required)
+        button(type="submit", name="submit") Submit
