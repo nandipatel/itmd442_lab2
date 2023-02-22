@@ -19,7 +19,11 @@ html
 
         form(action="get". method="post". id='form')
         label(for="f_name") First Name:
-        input#fname(type="text", name="f_name", placeholder="Enter you first name", required)
+        input#fname(type="text", name="f_name", placeholder="Enter your first name", required)
         label(for="l_name") Last Name:
-        input#lname(type="text", name="l_name", placeholder="Enter you last name", required)
+        input#lname(type="text", name="l_name", placeholder="Enter your last name", required)
+        label(for="email") Email Address:
+        input#email(type="email", name="email", placeholder="Enter your email address")
+        label(for="notes") Notes:
+        input#notes(type="text")(type="text", name="notes", placeholder="Enter any notes")
         button(type="submit", name="submit") Submit
