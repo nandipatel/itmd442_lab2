@@ -18,7 +18,7 @@ I have a Macbook Pro, the macOS is Ventura 13.2.1. The node.js version I used wa
 5. Once the terminal is open enter the following: node index.js, which will lead you to the home page
 
 ## Insights and Results:
-I learned html in pug format, along with some rendering features. I faced problems in getting pages to load, it was saying that it cannot 'GET' the page. I tried different method to fix the error but wasn't able to. In the end, I added code to the pages, but they didn't load, so I wasn't able to test much. 
+I learned html in pug format, along with some rendering features. I faced problems in getting pages to load, it was saying that it cannot 'GET' the page. I tried different method to fix the error but wasn't able to. In the end, I added code to the pages, but they didn't load, so I wasn't able to test much. I think I missed a couple of steps, in the backend from getting, the application from working.
 
 ## References:
 #### Had errors, used this website to get started on the basics of pug: 
