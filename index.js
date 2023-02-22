@@ -21,14 +21,15 @@ app.use(express.static(
 app.get("/", (req, res) => {
     res.render("index");
 });
-// Rendering  "allcontacts.pug"
+
+/*Rendering  "allcontacts.pug"
 app.get("/", (req, res) => {
     res.render("allcontacts");
 });
 // Rendering  "singlecontact.pug"
 app.get("/", (req, res) => {
     res.render("singlecontact");
-});
+}); */
  
 // Listening our app on port 3500
 app.listen(3500);
