@@ -17,5 +17,4 @@ Installation/Running Instructions – Include any instructions on how to get the
 Insights and Results – Include here things you learned, challenges or problems you faced, and any details about the results you received. If you couldn’t get something working this would be the place to describe what you tried and what wouldn’t work. Feel free to embed screenshots for working and non-working features.
 
 ## References:
-#### Had errors, used this webisite to get started on the basics of pug:
-https://www.geeksforgeeks.org/pugjs-basics-and-installation/
+#### Had errors, used this webisite to get started on the basics of pug: https://www.geeksforgeeks.org/pugjs-basics-and-installation/
