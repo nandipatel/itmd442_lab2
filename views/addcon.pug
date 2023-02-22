@@ -1,0 +1,19 @@
+block content 
+    h1 Add Contact to Database
+    p Use this form to add a contact
+    form(action="/allcontacts/add". method="POST". id='form')
+            label(for="f_name") First Name:
+            input#fname(type="text", name="f_name", placeholder="Enter your first name", required)
+            | 
+            label(for="l_name") Last Name:
+            input#lname(type="text", name="l_name", placeholder="Enter your last name", required)
+            | 
+            label(for="email") Email Address:
+            input#email(type="email", name="email", placeholder="Enter your email address")
+            | 
+            label(for="notes") Notes:
+            input#notes(type="text", name="notes", placeholder="Enter any notes")
+            | 
+            button(type="submit", name="submit") Add Contact
+            | 
+            a(href='/') Cancel 

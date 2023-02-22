@@ -3,33 +3,30 @@ const express = require("express");
 const pug = require("pug");
 const path = require("path");
  
-// Starting the express app
-const app = express();
+// Starting the express router
+const router = express.Router();
  
 // View engine to pug
-app.set("view engine", "pug");
+router.set("view engine", "pug");
  
-
 // Default views
-app.set("views", __dirname + "/views");
+router.set("views", __dirname + "/views");
  
 // Serving public assets
-app.use(express.static(
+router.use(express.static(
     path.join(__dirname + "/public")));
  
 // Home page will render "index.pug"
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
     res.render("index");
 });
 
-/*Rendering  "allcontacts.pug"
-app.get("/", (req, res) => {
-    res.render("allcontacts");
+//Creating contact
+router.get('/add', function(req, res, next){
+    res.render('addcon', {title: 'Add Contact'});
 });
-// Rendering  "singlecontact.pug"
-app.get("/", (req, res) => {
-    res.render("singlecontact");
-}); */
  
 // Listening our app on port 3500
-app.listen(3500);
+router.listen(3500);
+
+module.exports = router;
