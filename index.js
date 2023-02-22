@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
 });
 
 //Creating contact
-router.get('/add', function(req, res, next){
+router.get('/', function(req, res, next){
     res.render('addcon', {title: 'Add Contact'});
 });
  

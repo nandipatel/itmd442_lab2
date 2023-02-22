@@ -1,0 +1,8 @@
+block content 
+    h1 Delete Contact to Database
+    p Use this form to delete a contact
+    p= contact
+    form(action="/deletecon/add". method="POST". id='form')
+        button(type="submit", name="submit") Confirm Delete
+        | 
+        a(href='/') Cancel 
